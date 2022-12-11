@@ -46,7 +46,7 @@
 3. **시각화 처리**
     + 한글 폰트 설정 : from matplotlib import font_manager, rc
     + 사용한 시각화 방법 : bar, pie, word cloud<br><br>
-    [연도별 장르 변화, 2005vs2022 장르 비교](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/genre_comparison.py)<br>
+    [연도별 장르 변화, 2005 vs 2022 장르 비교](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/genre_comparison.py)<br>
     [연도별 인기 가수 변화](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/Singer_frequency.py)<br><br>
 4. **포트폴리오 자료**<br>
     + [빅데이터 처리 프로젝트 PPT](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/프로젝트ppt.pdf)
