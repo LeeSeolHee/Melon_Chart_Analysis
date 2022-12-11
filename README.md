@@ -18,7 +18,7 @@
 ---
 1. **데이터 수집**
     + BeautifulSoup, requests를 통하여 노래 목록을 받습니다.
-    + chrome에서 개발자 도구(F12)를 사용해 HTML 요소를 확인하여 원한는 정보를 가져옵니다.
+    + chrome에서 개발자 도구(F12)를 사용해 HTML 요소를 확인하여 원하는 정보를 가져옵니다.
     + 노래 목록은 제목과 가수명이 있습니다. 더 나아가 장르, 발매일을 가져오기 위해 songid 값을 받아 url에 접속합니다.<br><br>
    [멜론 차트 연도별 데이터 크롤링 (2005~2020)](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/crawling_by_year.py)<br>
    [멜론 차트 TOP100 데이터 크롤링 (2022)](https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/crawling_top_100.py)<br><br>
@@ -38,7 +38,7 @@
     ```
     df["가수"] = df["가수"].str.replace(" ", "")
     ```
-    + 컬럼 값 -> 한 문장(str)으로 변환
+    + 컬럼 값 -> 한 문장(str) 변환
     ```
     text = ' '.join(v for v in df['가수'])
     text = re.sub(pattern=pattern, repl='', string=text)
