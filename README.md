@@ -20,8 +20,8 @@
     + **BeautifulSoup, requests**를 통하여 노래 목록을 받습니다.
     + chrome에서 개발자 도구(F12)를 사용해 HTML 요소를 확인하여 원한는 정보를 가져옵니다.
     + 노래 목록은 제목과 가수명이 있습니다. 더 나아가 장르, 발매일을 가져오기 위해 songid 값을 받아 url에 접속합니다.<br><br>
-   멜론 차트 연도별 데이터 크롤링 (2005~2020)<br>
-   멜론 차트 TOP100 데이터 크롤링 (2022)<br><br>
+   멜론 차트 연도별 데이터 크롤링 (2005~2020)(https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/crawling_by_year.py)<br>
+   멜론 차트 TOP100 데이터 크롤링 (2022)(https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/crawling_top_100.py)<br><br>
 2. **데이터 전처리**
     + 크롤링 때 장르 부분에 추출 이상 발견
     ```
@@ -46,8 +46,8 @@
 3. **시각화 처리**
     + 한글 폰트 설정 : from matplotlib import font_manager, rc
     + 사용한 시각화 방법 : bar, pie, word cloud<br><br>
-    연도별 장르 변화, 2005vs2022 장르 비교<br>
-    연도별 인기 가수 변화<br>
+    연도별 장르 변화, 2005vs2022 장르 비교(https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/genre_comparison.py)<br>
+    연도별 인기 가수 변화(https://github.com/LeeSeolHee/Melon_Chart_Analysis/blob/master/Singer_frequency.py)<br>
    
 
 
