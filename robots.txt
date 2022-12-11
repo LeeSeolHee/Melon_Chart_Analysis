@@ -1,0 +1,60 @@
+User-agent: Googlebot
+Allow: /resource
+Allow: /album
+Allow: /artist
+Allow: /video
+
+User-agent: daumoa
+Allow: /resource
+Allow: /song
+Allow: /album
+Allow: /artist
+Allow: /video
+Allow: /genere
+Allow: /new
+Allow: /tv
+Allow: /dj
+Allow: /musicstory
+Allow: /artistplus
+Allow: /flac
+Allow: /edu
+Allow: /search/trend/
+Allow: /search/cate/
+
+User-agent: daumoa-image
+Allow: /resource
+Allow: /song
+Allow: /album
+Allow: /artist
+Allow: /video
+Allow: /genere
+Allow: /new
+Allow: /tv
+Allow: /dj
+Allow: /musicstory
+Allow: /artistplus
+Allow: /flac
+Allow: /edu
+Allow: /search/trend/
+Allow: /search/cate/
+
+User-agent: Twitterbot
+Allow: /restful
+
+User-agent: Applebot
+Allow: /song
+
+User-agent: Yeti
+Allow: /resource
+Allow: /chart/
+Allow: /dj/today/
+Allow: /event/
+Allow: /flac/index.htm
+Allow: /melonaward/
+Allow: /musicstory/today/
+Allow: /tv/
+Allow: /commerce/pamphlet/
+Allow: /$
+
+User-agent: *
+Disallow: /
